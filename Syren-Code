@@ -1,0 +1,32 @@
+int motorPin = 5;
+
+void setup() {
+Serial.begin(9600);
+
+pinMode(9, OUTPUT);
+
+}
+
+void loop() {
+
+digitalWrite(127);
+delay(10000);
+
+digitalWrite(65);
+delay(10000);
+
+digitalWrite(0);
+delay(10000);
+
+digitalWrite(65);
+delay(10000);
+
+digitalWrite(127);
+delay(10000);
+
+digitalWrite(65);
+delay(10000);
+
+digitalWrite(0);
+delay(10000);
+}
